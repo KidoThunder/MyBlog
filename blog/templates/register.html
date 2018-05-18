@@ -6,7 +6,7 @@
         <p>
             {{ form.username.label }}
             {{ form.username(size=32) }}
-            {% for error in form.username.errors %} }}
+            {% for error in form.username.errors %}
                 <span style="color: red">[{{ error }}]</span>
             {% endfor %}
         </p>
@@ -14,7 +14,7 @@
         <p>
             {{ form.email.label }}
             {{ form.email(size=64) }}
-            {% for error in form.email.errors %} }}
+            {% for error in form.email.errors %}
                 <span style="color: red">[{{ error }}]</span>
             {% endfor %}
         </p>
@@ -22,7 +22,7 @@
         <p>
             {{ form.password.label }}
             {{ form.password(size=32) }}
-            {% for error in form.password.errors %} }}
+            {% for error in form.password.errors %}
                 <span style="color: red">[{{ error }}]</span>
             {% endfor %}
         </p>
@@ -30,7 +30,7 @@
         <p>
             {{ form.password2.label }}
             {{ form.password2(size=32) }}
-            {% for error in form.password2.errors %} }}
+            {% for error in form.password2.errors %}
                 <span style="color: red">[{{ error }}]</span>
             {% endfor %}
         </p>
