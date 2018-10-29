@@ -104,3 +104,8 @@ ENV/
 .idea/
 *.iml
 
+# db
+*.db
+
+# config
+config.py
